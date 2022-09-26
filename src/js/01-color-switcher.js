@@ -11,7 +11,7 @@ function getRandomHexColor() {
 startBtn.addEventListener("click", () => {
 
 	timerId = setInterval(() => {
-		console.log("bleat");
+		
 	const color = getRandomHexColor();
 	bodyEl.style.backgroundColor = color;
 	}, 1000);

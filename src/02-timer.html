@@ -5,6 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Countdown timer</title>
     <link rel="stylesheet" href="css/common.css" />
+	 <style>
+      .timer {
+		  display: flex;
+		  gap: 8px;
+
+      }
+		.field {
+			display: flex;
+			flex-direction: column;
+		}
+		.value {
+			font-size: 40px;
+			font-weight: 400;
+		}
+		.label {
+			font-weight: 500;
+			color: rgb(221, 17, 21);
+		}
+    </style>
   </head>
   <body>
     <p><a href="index.html">Go back</a></p>
@@ -14,15 +33,15 @@
 
     <div class="timer">
       <div class="field">
-        <span class="value" data-days>00</span>
+        <span class="value" data-days>00:</span>
         <span class="label">Days</span>
       </div>
       <div class="field">
-        <span class="value" data-hours>00</span>
+        <span class="value" data-hours>00:</span>
         <span class="label">Hours</span>
       </div>
       <div class="field">
-        <span class="value" data-minutes>00</span>
+        <span class="value" data-minutes>00:</span>
         <span class="label">Minutes</span>
       </div>
       <div class="field">

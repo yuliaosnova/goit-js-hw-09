@@ -12,6 +12,7 @@ const refs = {
   inputEl: document.querySelector('#datetime-picker'),
 };
 
+
 const options = {
 	enableTime: true,
 	time_24hr: true,
